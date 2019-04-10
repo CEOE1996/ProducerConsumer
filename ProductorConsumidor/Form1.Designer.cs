@@ -285,6 +285,7 @@
             this.Controls.Add(this.pnlContainer);
             this.Name = "Form1";
             this.Text = "Productor-Consumidor";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 
